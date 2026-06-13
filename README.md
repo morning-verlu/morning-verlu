@@ -16,4 +16,10 @@ KAI OS is a Kotlin/JVM runtime for orchestrating AI agents like operating-system
 - Repository: https://github.com/morning-verlu/KAI
 - Focus: Kotlin, JVM, AI infrastructure, multi-agent runtime, workflow scheduler
 
+Try it:
+
+```bash
+curl -fsSL https://morning-verlu.github.io/KAI/install.sh | sh
+```
+
 I am interested in agent infrastructure that feels like systems programming again.
