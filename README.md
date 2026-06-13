@@ -19,6 +19,15 @@ KAI OS is a Kotlin/JVM runtime for orchestrating AI agents like operating-system
 Try it:
 
 ```bash
+brew tap morning-verlu/tap
+brew install kaios
+kaios doctor
+kaios run "analyze crypto market"
+```
+
+Or use the hosted installer:
+
+```bash
 curl -fsSL https://morning-verlu.github.io/KAI/install.sh | sh
 ```
 
