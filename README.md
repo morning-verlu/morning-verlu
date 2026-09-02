@@ -1,34 +1,31 @@
-# morning-verlu
+# Hi, I'm Morning Verlu
 
-Building **KAI OS**: an AI Agent Operating System in Kotlin.
+**Open-source infrastructure builder focused on AI agents, developer tooling, and reliable systems.**
 
-> Agent = Process. Workflow = Scheduler. Tool = Syscall.
+I work across Kotlin/JVM, Go, TypeScript, Rust, Python, and Shell—usually where developer experience meets correctness, observability, and regression testing.
 
-[![KAI OS CLI demo](https://morning-verlu.github.io/KAI/assets/kaios-demo.gif)](https://github.com/morning-verlu/KAI)
+As of September 2026, I have [18 external pull requests merged across 15 upstream repositories](https://github.com/search?q=author%3Amorning-verlu+is%3Apr+is%3Amerged+-user%3Amorning-verlu&type=pullrequests).
 
-## Featured Project
+## Selected merged contributions
 
-### [KAI OS](https://github.com/morning-verlu/KAI)
+| Project | What changed | Stack |
+| --- | --- | --- |
+| [pnpm #12140](https://github.com/pnpm/pnpm/pull/12140) | Preserved `workspace:` specifications during dependency updates and added regression coverage across pnpm and its Rust package core. | TypeScript, Rust |
+| [IPFS Kubo #11344](https://github.com/ipfs/kubo/pull/11344) | Protected and re-derived `PeerID` during JSON configuration replacement, with CLI regression coverage. | Go |
+| [Argo CD #28075](https://github.com/argoproj/argo-cd/pull/28075) | Added repository URL context to Git file-generator errors so ApplicationSet failures are easier to diagnose. | Go |
+| [pnpm #12092](https://github.com/pnpm/pnpm/pull/12092) | Restored the user-agent environment for headless lifecycle scripts and covered the behavior with tests. | TypeScript |
+| [validator #1583](https://github.com/go-playground/validator/pull/1583) | Added English translations and tests for prefix and suffix validators. | Go |
 
-KAI OS is a Kotlin/JVM runtime for orchestrating AI agents like operating-system processes. It ships a runnable CLI demo, process-style observability, coroutine DAG scheduling, permissioned syscall tools, JSON snapshots, SQLite memory, OpenAI-compatible and Ollama providers, and a static Agent Process Manager report.
+## Selected work
 
-- Website: https://morning-verlu.github.io/KAI/
-- Repository: https://github.com/morning-verlu/KAI
-- Focus: Kotlin, JVM, AI infrastructure, multi-agent runtime, workflow scheduler
+- **[oss-maintainer-kit](https://github.com/morning-verlu/oss-maintainer-kit)** — A CLI and GitHub Action for issue triage, pull-request review, and release-note drafting, with deterministic offline fallbacks.
+- **[ADB Wi-Fi Connect Helper](https://github.com/morning-verlu/adb-wifi-connect-helper)** — A macOS utility that finds Android's real wireless-debugging connection port when QR pairing stalls.
+- **[KAI OS](https://github.com/morning-verlu/KAI)** — A local-first Kotlin/JVM runtime for traceable, replayable AI-agent workflows.
 
-Try it:
+## Tools I work with
 
-```bash
-brew tap morning-verlu/tap
-brew install kaios
-kaios doctor
-kaios run "analyze crypto market"
-```
+Kotlin/JVM · Go · TypeScript · Rust · Python · Shell · GitHub Actions · CLI tooling · Regression testing
 
-Or use the hosted installer:
+## Contact
 
-```bash
-curl -fsSL https://morning-verlu.github.io/KAI/install.sh | sh
-```
-
-I am interested in agent infrastructure that feels like systems programming again.
+[wurslu@gmail.com](mailto:wurslu@gmail.com)
